@@ -2,9 +2,9 @@
 
 This week's lab is meant to introduce you to the idea of Unsupervised Learning. In particular, we'll cover the following topics:
 
-Similarity
-Clustering
-Recommender Systems
+- Similarity
+- Clustering
+- Recommender Systems
 
 ## Setup
 
@@ -17,14 +17,18 @@ Recommender Systems
 The environment for this week is built with the following environment.yml:
 
 ```yml
-name: coding-exercise
+name: h501-week-11
 dependencies:
   - python=3.11
   - pip
   - pip:
-    - streamlit
+    - ipykernel
     - pandas
     - numpy
+    - seaborn
+    - streamlit
+    - scikit-learn
+    - plotly
 ```
 
 *Note: you are welcome to install more packages in your codespace, but they will not be used by the autograder.*
