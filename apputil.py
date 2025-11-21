@@ -1,6 +1,8 @@
 import seaborn as sns
 import numpy as np
 import time
+from sklearn.cluster import KMeans
+import pandas as pd
 def kmeans(X, k):
     """
     Perform k-means clustering on a  NumPy array 
