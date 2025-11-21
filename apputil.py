@@ -1,5 +1,6 @@
 import seaborn as sns
 import numpy as np
+import time
 def kmeans(X, k):
     """
     Perform k-means clustering on a  NumPy array 
