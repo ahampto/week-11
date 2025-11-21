@@ -1,3 +1,4 @@
+import seaborn as sns
 def kmeans(X, k):
     """
     Perform k-means clustering on a  NumPy array 
